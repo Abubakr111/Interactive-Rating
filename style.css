@@ -1,9 +1,14 @@
+@font-face {
+    font-family: fontee;
+    src: url('./Overpass/Overpass-VariableFont_wght.ttf');
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: Arial;
+    font-family: fonte;
     background-color: hsl(216, 12%, 8%);
 }
 
