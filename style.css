@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 15px;
+    border-radius: 30px;
+    width: auto;
+}
+
+.star {
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 54%);
+    padding: 10px;
+}
+
+.head {
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+.text {
+    width: 400px;
+    color: hsl(217, 12%, 63%);
+}
+
+button {
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 8%);
+    /* padding: 20px; */
+    margin: 5px 15px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+button:hover {
+    color:hsl(216, 12%, 8%);   
+    background-color:  hsl(217, 12%, 63%);
+}
+.onClick, input[type=submit] {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+.selected {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(218, 5%, 34%);
+    width: 50%;
+    transform: translate(50%);
+    border-radius: 10px;
+}
+#submit {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+}
+
+input[type=submit]:hover {
+    color:  hsl(25, 97%, 53%);
+    background-color:white;
+}
+
+.div-2 {
+    text-align: center;
+    display: none;
+}
+
+@media only screen and (max-width:375px) {
+  
+    .container {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .text {
+        width: 100%;
+    }
+    
+    button {
+        margin: 0px 3px ;
+        width: 40px;
+        height: 40px;
+    }
+
+    .selected {
+        font-size: 14px;
+        padding: 2px;
+        
+    }
+
+
+}
